@@ -1,0 +1,64 @@
+{
+  "dealerships":[
+    {
+      "id":"belascoAuto",
+      "name":"Belasco Auto",
+      "description":"Belasco Auto - New & quality used vehicle sales.",
+      "preview":"belasco_auto_dealership.jpg",
+      "doors":[["ezautoComputer_area_1","ezautoComputer_icon_1"]],
+      "parkingSpotNames":["ezautogaragepark"],
+      "activityAcceptProps":[
+        {"keyLabel":"New & Used Vehicles"},
+      ],
+
+      "filter":{
+        "whiteList":{"Years": {"min":1999}, "Mileage":{"min":55000000, "max":67500000}, "Value":{"min":1000, "max":70000}, "Config Type":["Factory"]},
+        "blackList":{"Type":["Trailer"]}
+      },
+
+      "subFilters": [
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2020}, "Mileage":{"min":9000, "max":70000}, "Config Type":["Factory"]},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2015, "max":2020}, "Mileage":{"min":15000000, "max":70000000}, "Config Type":["Factory"]},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2000, "max":2015}, "Mileage":{"min":90000000, "max":165000000}, "Config Type":["Factory"],"Value":{"min":38000}},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2015, "max":2022}, "Mileage":{"min":10000000, "max":90000000}, "Config Type":["Factory"]},
+        },
+        {
+          "probability":1,
+          "whiteList":{}
+        }
+      ],
+
+      "fees": 749,
+      "containsStarterVehicles": false,
+      "testDrive" : {
+        "abandonFees" : 100,
+        "timeLimit" : 120,
+        "licencePlate" : "belasco"
+      },
+      "iconOffsetHeight":1.0,
+      "iconLift":0.25,
+      "playModeIconName":"poi_entrance_round",
+    },
+  ],
+  "privateSellers":[
+    {
+      "id": "private",
+      "name": "Private",
+      "filter": {
+        "whiteList":{"Mileage":{"min":25000000, "max":380000000}, "Value":{"min":450}},
+        "blackList":{"Type":["Trailer", "Truck"]}
+      }
+    }
+  ]
+}
