@@ -1,0 +1,146 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGVehicle(clone1) {
+      jbeam = "metal_ramp";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"model\"]=\"metal_ramp\",[\"parts\"]={[\"metal_ramp\"]=\"adjustable_metal_ramp\"},[\"partConfigFilename\"]=\"vehicles/metal_ramp/adjustable_metal_ramp.pc\",[\"vars\"]={[\"$width\"]=1,[\"$height\"]=1.33,[\"$length\"]=1}}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-747.372864 -69.3177185 296.935425";
+      rotationMatrix = "0.34038794 0.940283537 -0.00166836893 -0.940285087 0.340387881 -0.000366258784 0.000223505427 0.00169341255 0.999998569";
+      annotation = "CAR";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+         mode = "Ignore";
+   };
+   new BeamNGVehicle(clone) {
+      jbeam = "metal_ramp";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/metal_ramp/adjustable_metal_ramp.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-749.2771 -73.2919617 296.93161";
+      rotationMatrix = "0.461107969 0.887251914 -0.012787519 -0.887343347 0.461077809 -0.00539213326 0.00111186178 0.013833276 0.999903679";
+      annotation = "CAR";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/art/shapes/race/ut_race_mesh_barricade_curve.DAE";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-754.248108 -52.3584976 296.982178";
+      scale = "1 1 1";
+      rotationMatrix = "-0.806877494 0.590718985 0 -0.590718985 -0.806877494 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/art/shapes/race/ut_race_mesh_barricade_.DAE";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-748.710815 -61.249527 296.911316";
+      scale = "1 1 1";
+      rotationMatrix = "0.737713873 0.675113499 0 -0.675113499 0.737713873 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/art/shapes/race/ut_race_mesh_barricade_.DAE";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-754.350952 -73.2226028 296.940247";
+      scale = "1 1 1";
+      rotationMatrix = "0.117814124 0.993035674 0 -0.993035674 0.117814124 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/art/shapes/race/ut_race_mesh_barricade_curve.DAE";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-765.43512 -74.1282196 296.9646";
+      scale = "1 1 1";
+      rotationMatrix = "0.189037085 0.981969833 0 -0.981969833 0.189037085 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+

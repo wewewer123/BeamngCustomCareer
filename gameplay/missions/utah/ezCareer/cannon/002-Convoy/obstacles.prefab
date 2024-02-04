@@ -1,0 +1,301 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGVehicle(clone4) {
+      JBeam = "cannon";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"vars\"]={[\"$weight\"]=1360,[\"$power\"]=68800},[\"parts\"]={},[\"partConfigFilename\"]=\"cannon\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-789.744812 -931.030029 162.994324";
+      rotationMatrix = "-0.156778932 0.987632394 -0.00175602129 -0.987616777 -0.156765461 0.00618488807 0.00583311124 0.00270393421 0.999979317";
+      annotation = "CAR";
+      internalName = "cannon_1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "11dd0672-9fba-4c7e-9417-62a8bc258b85";
+         licenseText = "3APF240";
+   };
+   new BeamNGVehicle(clone0) {
+      JBeam = "bastion";
+      color = "0 0 0 2";
+      colorPalette0 = "0 0 0 2";
+      colorPalette1 = "0 0 0 2";
+      metallicPaintData[0] = "0.879999995 0.899999976 1 0.0299999993";
+      metallicPaintData[1] = "0.879999995 0.899999976 1 0.0299999993";
+      metallicPaintData[2] = "0.879999995 0.899999976 1 0.0299999993";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/bastion/luxe_v8_A.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-975.671326 -954.37085 136.624466";
+      rotationMatrix = "-0.413740396 0.910394847 0.000257609528 -0.910392344 -0.413738489 -0.0024801197 -0.00215130532 -0.00126065151 0.999996901";
+      annotation = "CAR";
+      internalName = "target";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "ce8d6a82-6cb5-41cc-a8ca-f63c328860d4";
+         health = "20000";
+         licenseDesign = "vehicles/common/licenseplates/utah/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "3APF240";
+         static = "0";
+   };
+   new BeamNGVehicle(clone1) {
+      JBeam = "etkc";
+      color = "0 0 0 1.20000005";
+      colorPalette0 = "0 0.0599999987 0.159999996 1.20000005";
+      colorPalette1 = "0 0.0599999987 0.159999996 1.20000005";
+      metallicPaintData[0] = "0.899999976 0.600000024 1 0.0299999993";
+      metallicPaintData[1] = "0.899999976 0.600000024 1 0.0299999993";
+      metallicPaintData[2] = "0.899999976 0.600000024 1 0.0299999993";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/etkc/kc6tx_M.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-970.631653 -952.199219 136.584595";
+      rotationMatrix = "-0.414093137 0.91023463 -0.000422109151 -0.910214245 -0.414086819 -0.00652282778 -0.00611209217 -0.00231684675 0.999978662";
+      annotation = "CAR";
+      internalName = "target";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "24c10958-30c1-4e4c-8733-544550e94eae";
+         health = "20000";
+         licenseDesign = "vehicles/common/licenseplates/utah/licensePlate-default.json";
+         licenseFormats = "[\"52-11\"]";
+         licenseText = "3APF240";
+         static = "0";
+   };
+   new BeamNGVehicle(clone2) {
+      JBeam = "wendover";
+      color = "0 0 0 1.20000005";
+      colorPalette0 = "0 0 0 1.20000005";
+      colorPalette1 = "0 0 0 1.20000005";
+      metallicPaintData[0] = "1 1 1 0.0700000003";
+      metallicPaintData[1] = "1 1 1 0.0700000003";
+      metallicPaintData[2] = "1 1 1 0.0700000003";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/wendover/super.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-980.358215 -956.571777 136.590622";
+      rotationMatrix = "-0.413975239 0.910059154 0.0204110742 -0.910256922 -0.414042473 -0.00101323798 0.0075289472 -0.0189987775 0.999791145";
+      annotation = "CAR";
+      internalName = "target";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "ad43dc5c-3e82-496a-892b-b24aec55c13d";
+         health = "20000";
+         licenseDesign = "vehicles/common/licenseplates/utah/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "FATT-10K";
+         static = "0";
+   };
+   new BeamNGVehicle(clone32) {
+      JBeam = "dryvan";
+      color = "1 0.837013304 0.508000016 1";
+      colorPalette0 = "Black";
+      colorPalette1 = "Black";
+      metallicPaintData[0] = "0.180999994 0.0610000007 0.800000012 0";
+      metallicPaintData[1] = "0.670000017 0.160999998 0.800000012 0";
+      metallicPaintData[2] = "0.0769999996 0.546000004 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/dryvan/53ft_spreadaxle.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-977.811951 -956.4552 136.247864";
+      rotationMatrix = "-0.40315938 0.915129662 -0.000331932213 -0.91510725 -0.403151989 -0.00686922576 -0.00642005168 -0.00246563996 0.999976337";
+      annotation = "CAR";
+      internalName = "target";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "e8fdd1fb-9818-4929-9657-91080c8a8fba";
+         licenseDesign = "vehicles/common/licenseplates/utah/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "3APF240";
+         pull = "trailer1";
+         static = "0";
+   };
+   new BeamNGVehicle(clone9) {
+      JBeam = "cannon";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"vars\"]={[\"$weight\"]=1360,[\"$power\"]=62400},[\"parts\"]={},[\"partConfigFilename\"]=\"cannon\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "757.517395 -717.672058 162.404022";
+      rotationMatrix = "0.433889806 -0.888455629 -0.149620712 0.894084334 0.445083141 -0.0501435399 0.111143969 -0.112016752 0.987471163";
+      annotation = "CAR";
+      internalName = "cannon_6";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "73152f34-986c-4931-8064-8933b927f4cd";
+         licenseText = "3APF240";
+   };
+   new BeamNGVehicle(clone8) {
+      JBeam = "cannon";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"vars\"]={[\"$weight\"]=1360,[\"$power\"]=66400},[\"parts\"]={},[\"partConfigFilename\"]=\"cannon\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "521.616638 -909.112854 163.029099";
+      rotationMatrix = "-0.117757559 -0.993036151 -0.00353661925 0.991156936 -0.117752552 0.0611761175 -0.0611665398 0.00369859859 0.998120725";
+      annotation = "CAR";
+      internalName = "cannon_5";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "c2031085-90cb-44b7-8b68-77b1597c5617";
+         licenseText = "3APF240";
+   };
+   new BeamNGVehicle(clone7) {
+      JBeam = "cannon";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"vars\"]={[\"$weight\"]=1360,[\"$power\"]=64000},[\"parts\"]={},[\"partConfigFilename\"]=\"cannon\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "285.055817 -975.626465 162.47757";
+      rotationMatrix = "-0.337861657 -0.918792605 0.204133034 0.934357524 -0.353520632 -0.0447186306 0.113252304 0.17562452 0.977921247";
+      annotation = "CAR";
+      internalName = "cannon_4";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "34a63400-3f48-4c2e-a78f-e906611aeef4";
+         licenseText = "3APF240";
+   };
+   new BeamNGVehicle(clone6) {
+      JBeam = "cannon";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"vars\"]={[\"$weight\"]=1360,[\"$power\"]=65600},[\"parts\"]={},[\"partConfigFilename\"]=\"cannon\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-379.90921 -966.169373 162.509338";
+      rotationMatrix = "-0.509734035 0.860103965 0.0198534559 -0.86032939 -0.50966382 -0.00882777292 0.00252577104 -0.0215803087 0.999763906";
+      annotation = "CAR";
+      internalName = "cannon_3";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "de9e6450-7b5b-443d-81c8-a12adab2cb05";
+         licenseText = "3APF240";
+   };
+   new BeamNGVehicle(clone5) {
+      JBeam = "cannon";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"vars\"]={[\"$weight\"]=1360,[\"$power\"]=64000},[\"parts\"]={},[\"partConfigFilename\"]=\"cannon\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-557.767761 -955.586975 162.899246";
+      rotationMatrix = "-0.34504962 0.937288225 0.0493078865 -0.938344181 -0.343296766 -0.0407091416 -0.0212289579 -0.0603144504 0.997953653";
+      annotation = "CAR";
+      internalName = "cannon_2";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "6d10b196-0f7c-4cdb-a715-2188f55b5643";
+         licenseText = "3APF240";
+   };
+   new BeamNGWaypoint(destination2) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1013.23792 -567.398987 147.718994";
+      scale = "3.83375382 3.83375382 3.83375382";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "570ea16f-3a00-4fc3-a9c8-053ba5cec817";
+         cloneOrigin = "ut_wp_54";
+   };
+   new BeamNGVehicle(clone3) {
+      JBeam = "us_semi";
+      color = "0 0 0 2";
+      colorPalette0 = "0.519999981 0.400000006 0.189999998 2";
+      colorPalette1 = "0 0 0 2";
+      metallicPaintData[0] = "1 1 1 0.119999997";
+      metallicPaintData[1] = "1 1 1 0.119999997";
+      metallicPaintData[2] = "1 1 1 0.119999997";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"parts\"]={[\"us_semi_transmission\"]=\"us_semi_transmission_10M\",[\"us_semi_air_tank_conv\"]=\"us_semi_air_tank_conv\",[\"us_semi_brakeValve_R\"]=\"us_semi_brakeValve_R\",[\"us_semi_conventional_mirror_L\"]=\"us_semi_conventional_mirror_L\",[\"us_semi_radiator\"]=\"us_semi_radiator\",[\"us_semi_conventional_horn_L\"]=\"us_semi_conventional_horn_L\",[\"us_semi_bumper_F\"]=\"us_semi_bumper_F_fog_alt\",[\"us_semi_conventional_windshield_R\"]=\"us_semi_conventional_windshield_R\",[\"us_semi_conventional_door_R\"]=\"us_semi_conventional_door_R_alt\",[\"us_semi_conventional_steer\"]=\"us_semi_conventional_steer\",[\"us_semi_fifthwheel_top\"]=\"us_semi_fifthwheel_top\",[\"us_semi_upfit_fifthwheel\"]=\"us_semi_upfit_fifthwheel\",[\"us_semi_taillights\"]=\"us_semi_taillights\",[\"us_semi_convetional_sleepercab\"]=\"us_semi_convetional_sleepercab\",[\"us_semi_licenseplate_R\"]=\"us_semi_licenseplate_R\",[\"us_semi_taillight_mount\"]=\"us_semi_taillight_mount\",[\"us_semi_conv_mufflershield_L\"]=\"us_semi_conv_mufflershield_L\",[\"us_semi_intershaft\"]=\"us_semi_intershaft\",[\"us_semi_conventional_doorglass_R2\"]=\"us_semi_conventional_doorglass_R2\",[\"us_semi_transfer_case\"]=\"us_semi_transfer_case\",[\"brakepad_R\"]=\"brakepad_R\",[\"us_semi_turbo\"]=\"us_semi_turbo_400\",[\"us_semi_finaldrive_R_1\"]=\"us_semi_finaldrive_R_1_462\",[\"us_semi_conventional_doorglass_R\"]=\"us_semi_conventional_doorglass_R\",[\"us_semi_differential_R_1\"]=\"us_semi_differential_R_1\",[\"us_semi_shock_F\"]=\"us_semi_shock_F\",[\"us_semi_tire_F\"]=\"us_semi_tire_F\",[\"paint_design\"]=\"us_semi_skin_breaker\",[\"conventional_interior_fifthwheel\"]=\"conventional_interior_fifthwheel\",[\"us_semi_frame_front\"]=\"us_semi_frame_front_conv_M\",[\"us_semi_air_compressor\"]=\"us_semi_air_compressor\",[\"us_semi_spring_F\"]=\"us_semi_spring_F\",[\"us_semi_conventional_load_seat_R\"]=\"\",[\"us_semi_hubs_F_1\"]=\"us_semi_hubs_F_1\",[\"n2o_system\"]=\"\",[\"conventional_interior_boostgauge\"]=\"conventional_interior_boostgauge_alt\",[\"us_semi_coventional_airfilter_R\"]=\"us_semi_coventional_airfilter_R\",[\"us_semi_brake_F\"]=\"\",[\"wheel_RR_10\"]=\"wheel_RR_10_alt\",[\"conventional_interior_difflock\"]=\"conventional_interior_difflock\",[\"us_semi_sidestep_L\"]=\"us_semi_sidestep_L\",[\"us_semi_coventional_airfilter_L\"]=\"us_semi_coventional_airfilter_L\",[\"us_semi_wheeldata_R_2\"]=\"us_semi_wheeldata_R_2\",[\"conventional_interior_compression_brake\"]=\"conventional_interior_compression_brake\",[\"brakepad_RR\"]=\"brakepad_RR\",[\"us_semi_brake_DX2\"]=\"us_semi_brake_DX2\",[\"us_semi_conventional_interior_sleepercab\"]=\"us_semi_conventional_interior_sleepercab\",[\"us_semi_conv_exhauststack_L\"]=\"us_semi_conv_exhauststack_L\",[\"us_semi_flywheel\"]=\"us_semi_flywheel\",[\"us_semi_conventional_hood_accessory\"]=\"us_semi_conventional_hood_dino\",[\"us_semi_tire_R_1\"]=\"us_semi_tire_R_1\",[\"wheel_R_10\"]=\"wheel_R_10_alt\",[\"us_semi_conventional_mirror_R\"]=\"us_semi_conventional_mirror_R\",[\"conventional_dash_radio\"]=\"conventional_dash_radio\",[\"us_semi_convetional_hood\"]=\"us_semi_convetional_hood\",[\"conventional_interior_plaque\"]=\"conventional_interior_plaque\",[\"us_semi_brake_DX1\"]=\"us_semi_brake_DX1\",[\"us_semi_conventional_sleeper_small_mattress\"]=\"us_semi_conventional_sleeper_small_mattress\",[\"us_semi_conventional_doorglass_L\"]=\"us_semi_conventional_doorglass_L\",[\"us_semi_steering\"]=\"us_semi_steering\",[\"us_semi_wheeldata_R_1\"]=\"us_semi_wheeldata_R_1\",[\"us_semi_conventional_door_panel_R_alt\"]=\"us_semi_conventional_door_panel_R_alt\",[\"us_semi_hubs_R_1\"]=\"us_semi_hubs_R_1\",[\"us_semi_conventional_dashboard\"]=\"us_semi_conventional_dashboard\",[\"us_semi_sidestep_R\"]=\"us_semi_sidestep_R\",[\"us_semi_hydraulic_pump\"]=\"us_semi_hydraulic_pump_0006\",[\"us_semi_mudflaps\"]=\"us_semi_mudflaps\",[\"us_semi_suspension_R_tandem_alt\"]=\"semi_R_suspension_wbeam\",[\"us_semi_conventional_doorglass_L2\"]=\"us_semi_conventional_doorglass_L2\",[\"conventional_dash_cbradio\"]=\"conventional_dash_cbradio\",[\"us_semi_conv_exhaustTip_L\"]=\"us_semi_conv_exhaustTip_L_long\",[\"us_semi_enginemounts\"]=\"us_semi_enginemounts\",[\"us_semi_driveshaft_S2\"]=\"us_semi_driveshaft_S2\",[\"us_semi_conv_mufflershield_R\"]=\"us_semi_conv_mufflershield_R\",[\"us_semi_conventional_windshield_L\"]=\"us_semi_conventional_windshield_L\",[\"semi_wbeam_springs\"]=\"semi_wbeam_springs\",[\"us_semi_coneventional_visor\"]=\"us_semi_coneventional_visor\",[\"us_semi_frame_mid\"]=\"us_semi_frame_mid_S2\",[\"us_semi_conv_exhaustmuffler_R\"]=\"us_semi_conv_exhaustmuffler_R\",[\"conventional_lowAirWarning\"]=\"conventional_lowAirBuzzer\",[\"us_semi_conventional_horn_R\"]=\"us_semi_conventional_horn_R\",[\"us_semi_conv_exhaustTip_R\"]=\"us_semi_conv_exhaustTip_R_long\",[\"us_semi_conv_exhauststack_R\"]=\"us_semi_conv_exhauststack_R\",[\"us_semi_engine_ecu\"]=\"us_semi_engine_ecu\",[\"conventional_dash_trim\"]=\"conventional_dash_trim_wood_a\",[\"us_semi_conv_exhaustmuffler_L\"]=\"us_semi_conv_exhaustmuffler_L\",[\"us_semi_pintle_slope\"]=\"\",[\"us_semi_conventional_wing_sleeper\"]=\"\",[\"us_semi_exhaust_conv\"]=\"us_semi_exhaust_conv\",[\"us_semi_axle_F\"]=\"us_semi_axle_F\",[\"us_semi_conventional_headlight_R_visor\"]=\"\",[\"us_semi_power_steering\"]=\"\",[\"licenseplate_design_2_1\"]=\"\",[\"us_semi_tire_R_2\"]=\"us_semi_tire_R_2\",[\"us_semi_mod\"]=\"\",[\"semi_wbeam_axles\"]=\"semi_wbeam_axles\",[\"us_semi_conventional_headlight_L_visor\"]=\"\",[\"skin_longnose_interior\"]=\"skin_longnose_interior_red\",[\"us_semi_coventional_airfilter_mount\"]=\"us_semi_coventional_airfilter_mount\",[\"us_semi_licenseplate_F\"]=\"\",[\"us_semi_exhaust\"]=\"\",[\"us_semi_conventional_headlight_R\"]=\"us_semi_conventional_headlight_R_alt\",[\"us_semi_conventional_headlight_L\"]=\"us_semi_conventional_headlight_L_alt\",[\"us_semi_foglight_FR_square\"]=\"us_semi_foglight_FR_square\",[\"us_semi_conventional_seat_R\"]=\"us_semi_conventional_seat_R\",[\"us_semi_hubs_R_2\"]=\"us_semi_hubs_R_2\",[\"us_semi_engine\"]=\"us_semi_engine_I6\",[\"us_semi_fueltank_large_R\"]=\"us_semi_fueltank_large_R\",[\"conventional_interior_highidle\"]=\"conventional_interior_highidle\",[\"us_semi_conventional_singal_FR\"]=\"us_semi_conventional_singal_FR\",[\"us_semi_foglight_FL_square\"]=\"us_semi_foglight_FL_square\",[\"us_semi_wheeldata_F\"]=\"us_semi_wheeldata_F\",[\"us_semi_engine_internals\"]=\"us_semi_engine_internals\",[\"us_semi_conventional_roofbeacons\"]=\"us_semi_conventional_roofbeacons\",[\"us_semi_differential_R_2\"]=\"us_semi_differential_R_2\",[\"conventional_interior_pto\"]=\"conventional_interior_pto\",[\"us_semi_conventional_seat_L\"]=\"us_semi_conventional_seat_L\",[\"us_semi_convetional_sleeper_small\"]=\"us_semi_convetional_sleeper_small\",[\"us_semi_conventional_door_L\"]=\"us_semi_conventional_door_L_alt\",[\"us_semi_conventional_sleeper_small_door_L\"]=\"us_semi_conventional_sleeper_small_door_L\",[\"us_semi_finaldrive_R_2\"]=\"us_semi_finaldrive_R_2_462\",[\"us_semi_conventional_door_panel_L_alt\"]=\"us_semi_conventional_door_panel_L_alt\",[\"us_semi_conventional_shifter\"]=\"us_semi_conventional_shifter_twin\",[\"us_semi_fueltank_large_L\"]=\"us_semi_fueltank_large_L\",[\"us_semi_conventional_singal_FL\"]=\"us_semi_conventional_singal_FL\",[\"wheel_F_10\"]=\"steelwheel_06a_22x10_F\",[\"conventional_interior_airsusp\"]=\"conventional_interior_airsusp\"},[\"model\"]=\"us_semi\",[\"partConfigFilename\"]=\"vehicles/us_semi/t83_sleeper.pc\",[\"paints\"]={{[\"baseColor\"]={0,0,0,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=1,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.52,0.4,0.19,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=1,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0,0,0,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=1,[\"clearcoatRoughness\"]=0.12}},[\"mainPartName\"]=\"us_semi\"}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-966.639404 -950.630981 135.811996";
+      rotationMatrix = "-0.399124146 0.91689527 -0.00179365033 -0.916879773 -0.399127841 -0.00534714246 -0.0056186649 -0.000489611644 0.999984086";
+      annotation = "CAR";
+      internalName = "target";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "8afb4e62-a9b2-4118-93a1-e8919513af41";
+         destination = "destination2";
+         licenseDesign = "vehicles/common/licenseplates/utah/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "XNT-2054";
+         paints = "{{[\"baseColor\"]={0.09,0.21,0.47,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=0,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.09,0.21,0.47,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=0,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.09,0.21,0.47,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=0,[\"clearcoatRoughness\"]=0.12}}";
+         pull = "truck1";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

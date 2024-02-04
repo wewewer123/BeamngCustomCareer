@@ -1,0 +1,78 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+   persistentId = "f2191937-b81a-4f81-a5ef-cb2dacd990f0";
+      groupPosition = "0 0 0";
+
+   new TSStatic() {
+      shapeName = "/art/shapes/objects/arrowboard_R.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-375.532288 -865.809998 132.790543";
+      scale = "1 1 1";
+      rotationMatrix = "-0.993927836 -0.100772537 0.0441793278 0.0950367078 -0.988589764 -0.116866142 0.0554521456 -0.111957878 0.992164552";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "1d914513-e39a-407d-9c52-16a533ee0a83";
+   };
+   new TSStatic() {
+      shapeName = "/art/shapes/objects/arrowboard_L.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-765.250244 -376.177368 202.662079";
+      scale = "1 1 1";
+      rotationMatrix = "0.603462815 0.797391057 0 -0.797391057 0.603462815 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "9318fded-420d-489b-85e3-bd94158600d5";
+   };
+   new TSStatic() {
+      shapeName = "/art/shapes/objects/arrowboard_L.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-954.506104 -295.625427 260.289032";
+      scale = "1 1 1";
+      rotationMatrix = "0.95504272 0.296468228 0 -0.296468228 0.95504272 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "6e3451cf-02f4-4c08-b297-a39c02f517be";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,32 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+   persistentId = "9fa013f5-4087-4681-8baf-2eb093f462ef";
+      groupPosition = "0 0 0";
+
+   new TSStatic() {
+      shapeName = "/art/shapes/objects/arrowboard_L.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-328.255157 -869.913879 132.536362";
+      scale = "1 1 1";
+      rotationMatrix = "-0.0398834944 -0.99919045 0.00525512546 0.978404045 -0.040120244 -0.202770174 0.202816874 -0.00294554979 0.979212284";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "1ae9b50e-7336-4803-94db-86d8a7ab3881";
+   };
+};
+//--- OBJECT WRITE END ---
