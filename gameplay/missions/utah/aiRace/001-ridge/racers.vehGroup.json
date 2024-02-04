@@ -1,0 +1,57 @@
+{
+  "data":[
+    {
+      "paintName":"Vibrant Red",
+      "config":"track",
+      "model":"fullsize",
+      "paint":{
+        "baseColor":[
+          0.72,
+          0.13,
+          0.13,
+          1.2
+        ],
+        "clearcoat":1,
+        "clearcoatRoughness":0.06,
+        "metallic":0,
+        "roughness":1
+      }
+    },
+    {
+      "paintName":"Pearl White",
+      "config":"track",
+      "model":"fullsize",
+      "paint":{
+        "baseColor":[
+          0.83,
+          0.83,
+          0.83,
+          1.2
+        ],
+        "clearcoat":1,
+        "clearcoatRoughness":0.06,
+        "metallic":0.3,
+        "roughness":0.6
+      }
+    },
+    {
+      "paintName":"Jet Black",
+      "config":"track",
+      "model":"fullsize",
+      "paint":{
+        "baseColor":[
+          0,
+          0,
+          0,
+          1.2
+        ],
+        "clearcoat":1,
+        "clearcoatRoughness":0.06,
+        "metallic":1,
+        "roughness":1
+      }
+    }
+  ],
+  "name":"Utah - Race 1",
+  "type":"custom"
+}

@@ -1,0 +1,214 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGWaypoint(wp_helper_8) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "472.661987 811.220032 198.846222";
+      scale = "3 3 3";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "6a3ecb29-3026-4f0a-8815-45244e54d8f7";
+   };
+   new BeamNGWaypoint(wp_helper_7) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "507.908997 826.810303 203.399597";
+      scale = "3 3 3";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "844e2c4f-335a-466b-8c6b-5d473787c461";
+   };
+   new BeamNGWaypoint(wp_helper_6) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "515.212585 829.020813 204.083984";
+      scale = "3 3 3";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "6a23bf2f-bc42-41f1-a77e-9bcc029f89fb";
+   };
+   new BeamNGWaypoint(wp_helper_5) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "166.179214 508.216949 175.202026";
+      scale = "2.5 2.5 2.5";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "f499e5c3-4360-415e-ab71-3c99381fab58";
+   };
+   new BeamNGWaypoint(wp_helper_4) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "168.107025 514.095947 175.469208";
+      scale = "2.5 2.5 2.5";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "69950351-5914-4e66-a8e8-277edf1910e0";
+   };
+   new BeamNGWaypoint(wp_helper_3) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "170.533096 519.791565 175.859726";
+      scale = "2.5 2.5 2.5";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "415651f5-a031-46d3-9efd-57ba93ae55f3";
+   };
+   new BeamNGWaypoint(wp_helper_2) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "173.715607 527.94397 176.262039";
+      scale = "2 2 2";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "cfe0a196-544e-4a51-90a4-1d1de4fb011c";
+   };
+   new BeamNGWaypoint(wp_helper_1) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "727.697266 833.304565 183.022919";
+      scale = "5 5 5";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "9002b31e-9bf6-40d2-af84-3c5b0f9e8e62";
+   };
+   new DecalRoad(road_helper_2) {
+      drivability = "1";
+      lanesLeft = "1";
+      lanesRight = "1";
+      oneWay = "0";
+      flipDirection = "0";
+      gatedRoad = "0";
+      useSubdivisions = "1";
+      ImprovedSpline = "1";
+      startTangent = "0";
+      endTangent = "0";
+      looped = "0";
+      smoothness = "0.5";
+      detail = "0.100000001";
+      overObjects = "0";
+      material = "road_invisible";
+      textureLength = "5";
+      breakAngle = "3";
+      renderPriority = "10";
+      zBias = "0";
+      decalBias = "0.000500000024";
+      distanceFade = "0 0";
+      startEndFade = "0 0";
+      hiddenInNavi = "0";
+      position = "166.495224 424.45752 176.235886";
+      scale = "1 1 1";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "4df58e5a-6d22-43a2-9c95-d642904ffdb2";
+
+      Node = "166.495224 424.457520 176.235886 4.000000";
+      Node = "157.092087 424.894135 176.312622 4.000000";
+   };
+   new DecalRoad(road_helper_1) {
+      drivability = "1";
+      lanesLeft = "1";
+      lanesRight = "1";
+      oneWay = "0";
+      flipDirection = "0";
+      gatedRoad = "0";
+      useSubdivisions = "1";
+      ImprovedSpline = "1";
+      startTangent = "0";
+      endTangent = "0";
+      looped = "0";
+      smoothness = "0.5";
+      detail = "0.100000001";
+      overObjects = "0";
+      material = "road_invisible";
+      textureLength = "5";
+      breakAngle = "3";
+      renderPriority = "10";
+      zBias = "0";
+      decalBias = "0.000500000024";
+      distanceFade = "0 0";
+      startEndFade = "0 0";
+      hiddenInNavi = "0";
+      position = "-815.654358 84.9354706 252.532196";
+      scale = "1 1 1";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "59cb9adc-0968-4e56-a3eb-90a21abaff3c";
+
+      Node = "-815.654358 84.935471 252.532196 3.000000";
+      Node = "-820.314148 79.430176 252.346069 3.000000";
+      Node = "-824.249451 68.998215 252.243408 4.000000";
+      Node = "-827.152710 64.436066 251.827148 4.000000";
+   };
+   new TSStatic() {
+      shapeName = "/levels/Utah/art/shapes/rocks/utah_boulder_6.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "876.528137 860.552917 196.844986";
+      scale = "1 1 1";
+      rotationMatrix = "0.981383324 -0.192059413 0 0.192059413 0.981383324 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "/levels/Utah/art/shapes/rocks/utah_boulder_2.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "728.358765 836.041199 183.133896";
+      scale = "0.75 0.75 0.75";
+      rotationMatrix = "0.982038915 0.188678518 0 -0.188678518 0.982038915 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+

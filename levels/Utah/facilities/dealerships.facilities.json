@@ -40,7 +40,7 @@
       ],
 
       "fees": 749,
-      "containsStarterVehicles": false,
+      "containsStarterVehicles": true,
       "testDrive" : {
         "abandonFees" : 100,
         "timeLimit" : 120,

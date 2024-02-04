@@ -1,0 +1,55 @@
+{
+  "data":[
+    {
+      "config":"sport_gt_M",
+      "model":"bastion",
+      "paintName":"random"
+    },
+    {
+      "paintName":"Pearl White",
+      "config":"race",
+      "model":"moonhawk",
+      "paint":{
+        "baseColor":[
+          0.83,
+          0.83,
+          0.83,
+          1.2
+        ],
+        "clearcoat":1,
+        "clearcoatRoughness":0.09,
+        "metallic":0.3,
+        "roughness":0.6
+      }
+    },
+    {
+      "config":"390gt_us",
+      "model":"bolide",
+      "paintName":"random"
+    },
+    {
+      "config":"kc6_360_M",
+      "model":"etkc",
+      "paintName":"random"
+    },
+    {
+      "paintName":"Jet Black",
+      "config":"sport_RS_DCT",
+      "model":"sunburst",
+      "paint":{
+        "baseColor":[
+          0,
+          0,
+          0,
+          1.2
+        ],
+        "clearcoat":1,
+        "clearcoatRoughness":0.04,
+        "metallic":1,
+        "roughness":1
+      }
+    }
+  ],
+  "name":"Utah - Race 2",
+  "type":"custom"
+}
