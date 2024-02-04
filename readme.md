@@ -13,7 +13,7 @@ This project adds custom map support to the career mode in BeamNG.Drive, allowin
 4. Launch BeamNG.Drive and enjoy playing career mode on a different map!
 
 ## Video Showcase
-Check out this video showcasing the custom map support in action: [Custom Map Installation/Showcase](https://youtu.be/zC4hzysEF4A)
+Check out this video showcasing the custom map support in action: [Custom Map Installation/Showcase](https://youtu.be/sjl4sM0j05o)
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request with any improvements or bug fixes.
