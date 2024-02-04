@@ -76,8 +76,8 @@
       "spotDirection":"Left",
       "spotOffset":0,
       "spotRotation":0
-    }
-  {
+    },
+    {
       "color":[
         1,
         1,
@@ -112,7 +112,115 @@
       "spotDirection":"Left",
       "spotOffset":0,
       "spotRotation":0
-    }
+    },
+    {
+      "color":[
+        1,
+        1,
+        1
+      ],
+      "customFields":{
+        "values":{},
+        "names":{},
+        "tags":{},
+        "types":{}
+      },
+      "isMultiSpot":false,
+      "name":"ezautosalepark1",
+      "oldId":1411,
+      "pos":[
+        766.881,
+        -132.875,
+        144.310
+      ],
+      "rot":[
+        0,
+        0,
+        0.95,
+        0.7
+      ],
+      "scl":[
+        2.5,
+        6,
+        3
+      ],
+      "spotAmount":1,
+      "spotDirection":"Left",
+      "spotOffset":0,
+      "spotRotation":0
+    },
+	{
+      "color":[
+        1,
+        1,
+        1
+      ],
+      "customFields":{
+        "values":{},
+        "names":{},
+        "tags":{},
+        "types":{}
+      },
+      "isMultiSpot":false,
+      "name":"ezautosalepark2",
+      "oldId":1411,
+      "pos":[
+        796.247,
+        10.084,
+        147.535
+      ],
+      "rot":[
+        0,
+        0,
+        0.95,
+        0.7
+      ],
+      "scl":[
+        10.18938193,
+        30.25775742,
+        3
+      ],
+      "spotAmount":1,
+      "spotDirection":"Left",
+      "spotOffset":0,
+      "spotRotation":0
+    },
+	{
+      "color":[
+        1,
+        1,
+        1
+      ],
+      "customFields":{
+        "values":{},
+        "names":{},
+        "tags":{},
+        "types":{}
+      },
+      "isMultiSpot":false,
+      "name":"ezautosalepark3",
+      "oldId":1411,
+      "pos":[
+        -808.147,
+        -129.456,
+        296.703
+      ],
+      "rot":[
+        0,
+        0,
+        0.95,
+        0.7
+      ],
+      "scl":[
+        10.18938193,
+        30.25775742,
+        3
+      ],
+      "spotAmount":1,
+      "spotDirection":"Left",
+      "spotOffset":0,
+      "spotRotation":0
+    },
   ],
   "zones":[
     {

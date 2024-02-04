@@ -10,7 +10,7 @@
       "finishGold"
     ],
     "showInCareer":true,
-    "showInFreeroam":true,
+    "showInFreeroam":false,
     "starOutroTexts":{},
     "starRewards":{
 		"finishBronze":[

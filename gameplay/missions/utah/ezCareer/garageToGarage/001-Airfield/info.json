@@ -4,21 +4,78 @@
     "vehicle":"provided"
   },
   "author":"BeamNG",
-  "careerSetup":{
+"careerSetup":{
     "defaultStarKeys":[
-      "justFinish",
+      "successiveAmountBronze",
       "successiveAmountSilver",
-      "AmountSilver"
+      "successiveAmountGold"
     ],
-    "showInCareer":false,
-    "showInFreeroam":true,
-    "starOutroTexts":{},
-    "starRewards":{},
+    "showInCareer":true,
+    "showInFreeroam":false,
+    "starOutroTexts":{
+      "noStarUnlocked":"missions.garage.outro.noStar"
+    },
+    "starRewards":{
+      "AmountGold":[
+        {
+          "attributeKey":"bonusStars",
+          "rewardAmount":1
+        }
+      ],
+      "kilometersAmountGold":[
+        {
+          "attributeKey":"bonusStars",
+          "rewardAmount":1
+        }
+      ],
+      "successiveAmountBronze":[
+        {
+          "attributeKey":"money",
+          "rewardAmount":2700
+        },
+        {
+          "attributeKey":"beamXP",
+          "rewardAmount":5
+        },
+        {
+          "attributeKey":"labourer",
+          "rewardAmount":350
+        }
+      ],
+      "successiveAmountGold":[
+        {
+          "attributeKey":"money",
+          "rewardAmount":2700
+        },
+        {
+          "attributeKey":"beamXP",
+          "rewardAmount":5
+        },
+        {
+          "attributeKey":"labourer",
+          "rewardAmount":350
+        }
+      ],
+      "successiveAmountSilver":[
+        {
+          "attributeKey":"money",
+          "rewardAmount":2700
+        },
+        {
+          "attributeKey":"beamXP",
+          "rewardAmount":5
+        },
+        {
+          "attributeKey":"labourer",
+          "rewardAmount":350
+        }
+      ]
+    },
     "starsActive":{
-      "AmountSilver":true,
-      "justFinish":true,
-      "kilometersAmountSilver":true,
-      "noDamage":true,
+      "AmountGold":true,
+      "kilometersAmountGold":true,
+      "successiveAmountBronze":true,
+      "successiveAmountGold":true,
       "successiveAmountSilver":true
     }
   },
