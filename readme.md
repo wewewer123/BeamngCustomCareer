@@ -7,7 +7,7 @@ This project adds custom map support to the career mode in BeamNG.Drive, allowin
 - Easy installation and setup process.
 
 ## Installation
-1. Download the latest release from the Releases section.
+1. Download the latest release from the [Releases](https://github.com/wewewer123/BeamngCustomCareer/releases) section. (just the "Source code (zip)")
 2. Extract the contents of the downloaded ZIP file to your BeamNG.Drive mods folder.
 3. Edit your `%localappdata%\BeamNG.drive\0.31\settings\cloud\saves\[save name]\autosave1\career\general.json` to say `"level":"utah"`.
 4. Launch BeamNG.Drive and enjoy playing career mode on a different map!
