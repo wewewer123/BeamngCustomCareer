@@ -1,0 +1,133 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGVehicle() {
+      JBeam = "scintilla";
+      color = "0.720564663 0.387281328 0.107435338 2";
+      colorPalette0 = "0 0 0 2";
+      colorPalette1 = "0.834315598 0.833818495 0.833684385 2";
+      metallicPaintData[0] = "0.0890000015 0.0450000018 0.0289999992 0.0450000018";
+      metallicPaintData[1] = "0.493999988 0 1 0";
+      metallicPaintData[2] = "0.625999987 0.853999972 1 0.0299999993";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/scintilla/race.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-1613.69934 1532.8479 164.698898";
+      rotationMatrix = "0.843840361 -0.536343396 -0.0164079219 0.53605479 0.84396863 -0.0190321077 0.0240555145 0.00726451539 0.999684215";
+      annotation = "CAR";
+      internalName = "cargo";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "69988072-1f4c-4ab6-a6cf-f48d48b9c6f7";
+         licenseText = "FIRE";
+   };
+   new BeamNGVehicle() {
+      JBeam = "scintilla";
+      color = "0.367329597 0.671267152 0.0822123438 2";
+      colorPalette0 = "0 0 0 2";
+      colorPalette1 = "0.834315598 0.833818495 0.833684385 2";
+      metallicPaintData[0] = "0.0890000015 0.0450000018 0.0289999992 0.0450000018";
+      metallicPaintData[1] = "0.493999988 0 1 0";
+      metallicPaintData[2] = "0.625999987 0.853999972 1 0.0299999993";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/scintilla/race.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-1616.25964 1528.78015 164.722992";
+      rotationMatrix = "0.848366261 -0.52914691 -0.0166799314 0.529193282 0.848499238 -0.00185740949 0.0151357511 -0.00725114532 0.999859154";
+      annotation = "CAR";
+      internalName = "cargo";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "2538023a-2f19-4f3b-a0cf-90646fafc405";
+         licenseText = "GRASS";
+   };
+   new BeamNGVehicle() {
+      JBeam = "flatbed";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/flatbed/48ft_double.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-1617.52246 1528.63245 164.347565";
+      rotationMatrix = "0.843436122 -0.537100375 -0.011775434 0.537053287 0.843518376 -0.0071312394 0.0137629872 -0.000309288676 0.999905348";
+      annotation = "CAR";
+      internalName = "trailer";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "49a46067-a6e4-443e-ac25-d07cfe2e20b4";
+         licenseDesign = "vehicles/common/licenseplates/italy/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "DLVRY";
+   };
+   new BeamNGVehicle() {
+      JBeam = "scintilla";
+      color = "0.107435361 0.37349385 0.720564663 2";
+      colorPalette0 = "0 0 0 2";
+      colorPalette1 = "0.834315598 0.833818495 0.833684385 2";
+      metallicPaintData[0] = "0.0890000015 0.0450000018 0.0289999992 0.0450000018";
+      metallicPaintData[1] = "0.493999988 0 1 0";
+      metallicPaintData[2] = "0.625999987 0.853999972 1 0.0299999993";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/scintilla/race.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-1618.82642 1524.77856 164.710831";
+      rotationMatrix = "0.847963214 -0.529793262 -0.0166555941 0.529998422 0.847913086 0.0120423855 0.00774252135 -0.0190389398 0.999788761";
+      annotation = "CAR";
+      internalName = "cargo";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "a43dc7a5-c1e4-4fe9-acd7-40192960e714";
+         licenseText = "WATER";
+   };
+   new BeamNGVehicle() {
+      JBeam = "us_semi";
+      color = "0.368918926 0.354162157 0.177081078 2";
+      colorPalette0 = "0.660000026 0.649999976 0.460000008 2";
+      colorPalette1 = "0.594375014 0.547625005 0.547625005 2";
+      metallicPaintData[0] = "0.300000012 0.600000024 1 0.119999997";
+      metallicPaintData[1] = "0.300000012 0.600000024 1 0.119999997";
+      metallicPaintData[2] = "0.300000012 0.600000024 1 0.119999997";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "{[\"paints\"]={{[\"baseColor\"]={0.3689189189,0.3541621622,0.1770810811,2},[\"roughness\"]=0.6,[\"clearcoat\"]=1,[\"metallic\"]=0.3,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.66,0.65,0.46,2},[\"roughness\"]=0.6,[\"clearcoat\"]=1,[\"metallic\"]=0.3,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.594375,0.547625,0.547625,2},[\"roughness\"]=0.6,[\"clearcoat\"]=1,[\"metallic\"]=0.3,[\"clearcoatRoughness\"]=0.12}},[\"model\"]=\"us_semi\",[\"licenseName\"]=\"XNT-2054\",[\"partConfigFilename\"]=\"vehicles/us_semi/tc83_ext.pc\",[\"parts\"]={[\"us_semi_transmission\"]=\"us_semi_transmission_10M\",[\"us_semi_cabover_grille\"]=\"us_semi_cabover_grille\",[\"us_semi_brakeValve_R\"]=\"us_semi_brakeValve_R\",[\"us_semi_intershaft\"]=\"us_semi_intershaft\",[\"us_semi_radiator\"]=\"us_semi_radiator\",[\"us_semi_cabover_fender_L\"]=\"\",[\"us_semi_bumper_F\"]=\"us_semi_bumper_F\",[\"us_semi_cabover_sleeper_storage_door_L\"]=\"us_semi_cabover_sleeper_storage_door_L\",[\"us_semi_cabover_sleeper_interior\"]=\"us_semi_cabover_sleeper_interior\",[\"cabover_interior_pto\"]=\"cabover_interior_pto\",[\"us_semi_fifthwheel_top\"]=\"us_semi_fifthwheel_top\",[\"us_semi_cabover_radio\"]=\"\",[\"cabover_dash_cbradio\"]=\"cabover_dash_cbradio\",[\"us_semi_cabover_headlight_L_visor\"]=\"\",[\"brakepad_R\"]=\"brakepad_R\",[\"cabover_dash_trim\"]=\"cabover_dash_trim_wood_a\",[\"us_semi_axle_F\"]=\"us_semi_axle_F\",[\"us_semi_cabover_door_R\"]=\"us_semi_cabover_door_R\",[\"us_semi_driveshaft_S2\"]=\"us_semi_driveshaft_S2\",[\"us_semi_cabover_doorglass_R\"]=\"us_semi_cabover_doorglass_R\",[\"us_semi_differential_R_1\"]=\"us_semi_differential_R_1\",[\"cabover_interior_highidle\"]=\"cabover_interior_highidle\",[\"us_semi_hubs_R_1\"]=\"us_semi_hubs_R_1\",[\"us_semi_brake_F\"]=\"\",[\"us_semi_cabover_load_seat_R\"]=\"\",[\"us_semi_shock_F\"]=\"us_semi_shock_F\",[\"us_semi_tire_F\"]=\"us_semi_tire_F\",[\"paint_design\"]=\"us_semi_skin_duke\",[\"us_semi_suspension_R_tandem_alt\"]=\"us_semi_axle_R_tandem_air\",[\"us_semi_cabover_seat_R\"]=\"us_semi_cabover_seat_R\",[\"cabover_interior_boostgauge\"]=\"cabover_interior_boostgauge_alt\",[\"licenseplate_design_2_1\"]=\"\",[\"us_semi_cabover_side_badges\"]=\"us_semi_cabover_side_badges\",[\"us_semi_hubs_F_1\"]=\"us_semi_hubs_F_1\",[\"us_semi_cabover_sleeper_cab_struts\"]=\"us_semi_cabover_sleeper_cab_struts\",[\"us_semi_transfer_case\"]=\"us_semi_transfer_case\",[\"us_semi_taillight_mount\"]=\"us_semi_taillight_mount\",[\"us_semi_shock_R_air_2\"]=\"us_semi_shock_R_air_2\",[\"us_semi_cabover_horn_R\"]=\"us_semi_cabover_horn_R\",[\"us_semi_cabov_exhaustTip_R\"]=\"us_semi_cabov_exhaustTip_R\",[\"us_semi_cabover_mirror_L\"]=\"us_semi_cabover_mirror_L\",[\"us_semi_cabover_fender_R\"]=\"\",[\"cabover_interior_compression_brake\"]=\"cabover_interior_compression_brake\",[\"us_semi_cabover_headlight_R\"]=\"us_semi_cabover_headlight_round_R\",[\"us_semi_cabover_heater\"]=\"us_semi_cabover_noheater\",[\"us_semi_power_steering\"]=\"\",[\"wheel_F_10\"]=\"steelwheel_12a_22x10_F\",[\"us_semi_wheeldata_R_1\"]=\"us_semi_wheeldata_R_1\",[\"us_semi_flywheel\"]=\"us_semi_flywheel\",[\"us_semi_cabover_singal_FL\"]=\"us_semi_cabover_singal_FL\",[\"us_semi_brake_R_air_1\"]=\"\",[\"us_semi_cabover_sleeper\"]=\"us_semi_cabover_sleeper\",[\"us_semi_exhaustframe_cabov_M\"]=\"us_semi_exhaustframe_cabov_M\",[\"us_semi_cabover_visor\"]=\"\",[\"us_semi_taillights\"]=\"us_semi_taillights_alt\",[\"us_semi_exhaust_cabov_M\"]=\"us_semi_exhaust_cabov_M\",[\"us_semi_intake_cabov_M\"]=\"us_semi_intake_cabov_M\",[\"n2o_system\"]=\"\",[\"us_semi_spring_F\"]=\"us_semi_spring_F\",[\"us_semi_cabover_sleeper_step_R\"]=\"us_semi_cabover_sleeper_step_R\",[\"us_semi_brake_R_air_2\"]=\"\",[\"us_semi_wheeldata_F\"]=\"us_semi_wheeldata_F\",[\"us_semi_cabover_headlight_L\"]=\"us_semi_cabover_headlight_round_L\",[\"us_semi_finaldrive_R_1\"]=\"us_semi_finaldrive_R_1_462\",[\"cabover_shifter\"]=\"cabover_shifter\",[\"us_semi_hydraulic_pump\"]=\"us_semi_hydraulic_pump_0006\",[\"us_semi_fueltank_large_L\"]=\"us_semi_fueltank_L\",[\"us_semi_fueltank_steps_R\"]=\"\",[\"us_semi_cabover_plaque\"]=\"\",[\"us_semi_cabover_horn_L\"]=\"\",[\"us_semi_cabov_mufflershield_R\"]=\"us_semi_cabov_mufflershield_R\",[\"us_semi_enginemounts\"]=\"us_semi_enginemounts\",[\"us_semi_spring_R_air_2\"]=\"us_semi_spring_R_air_2\",[\"skin_cabover_interior\"]=\"skin_cabover_interior_tan\",[\"us_semi_cabover_sleeper_storage_door_R\"]=\"us_semi_cabover_sleeper_storage_door_R\",[\"us_semi_turbo\"]=\"us_semi_turbo_350\",[\"cabover_interior_difflock\"]=\"\",[\"us_semi_frame_mid\"]=\"us_semi_frame_mid_S2\",[\"us_semi_pintle_slope\"]=\"us_semi_pintle_slope\",[\"us_semi_wheeldata_R_2\"]=\"us_semi_wheeldata_R_2\",[\"us_semi_upfit_fifthwheel\"]=\"us_semi_upfit_fifthwheel\",[\"cabover_interior_fifthwheel\"]=\"cabover_interior_fifthwheel\",[\"us_semi_air_compressor\"]=\"us_semi_air_compressor\",[\"us_semi_cabover_singal_FR\"]=\"us_semi_cabover_singal_FR\",[\"us_semi_cabover_door_panel_L\"]=\"us_semi_cabover_door_panel_L\",[\"us_semi_mod\"]=\"\",[\"wheel_RR_10\"]=\"wheel_RR_10\",[\"us_semi_cabover_door_panel_R\"]=\"us_semi_cabover_door_panel_R\",[\"us_semi_cabover_windshield\"]=\"us_semi_cabover_windshield\",[\"wheel_R_10\"]=\"wheel_R_10\",[\"us_semi_cabov_M_exhauststack_R\"]=\"us_semi_cabov_M_exhauststack_R\",[\"us_semi_tire_R_1\"]=\"us_semi_tire_R_1\",[\"us_semi_frame_front\"]=\"us_semi_frame_front_cabov_M\",[\"us_semi_tire_R_2\"]=\"us_semi_tire_R_2\",[\"us_semi_cabover_roofbeacons\"]=\"us_semi_cabover_roofbeacons\",[\"us_semi_cabover_shift_pattern\"]=\"us_semi_cabover_shift_pattern\",[\"us_semi_engine_ecu\"]=\"us_semi_engine_ecu\",[\"us_semi_cabover_seat_L\"]=\"us_semi_cabover_seat_L\",[\"us_semi_cabover_mirror_R\"]=\"us_semi_cabover_mirror_R\",[\"us_semi_licenseplate_F\"]=\"\",[\"us_semi_exhaust\"]=\"\",[\"us_semi_cabover_headlight_R_visor\"]=\"\",[\"us_semi_steering\"]=\"us_semi_steering\",[\"us_semi_cabover_dashboard\"]=\"us_semi_cabover_dashboard\",[\"us_semi_cabover_door_L\"]=\"us_semi_cabover_door_L\",[\"us_semi_hubs_R_2\"]=\"us_semi_hubs_R_2\",[\"us_semi_engine\"]=\"us_semi_engine_I6\",[\"us_semi_fueltank_large_R\"]=\"us_semi_fueltank_R\",[\"us_semi_cabov_intakesnorkel_L\"]=\"us_semi_cabov_intakesnorkel_L\",[\"us_semi_brake_DX1\"]=\"us_semi_brake_DX1\",[\"us_semi_mudflaps\"]=\"us_semi_mudflaps\",[\"us_semi_shock_R_air_1\"]=\"us_semi_shock_R_air_1\",[\"us_semi_engine_internals\"]=\"us_semi_engine_internals\",[\"us_semi_licenseplate_R\"]=\"us_semi_licenseplate_R\",[\"us_semi_differential_R_2\"]=\"us_semi_differential_R_2\",[\"us_semi_cabover_wing_sleeper\"]=\"\",[\"us_semi_cabov_exhaustmuffler_R\"]=\"us_semi_cabov_exhaustmuffler_R\",[\"us_semi_air_tank_cabov\"]=\"us_semi_air_tank_cabov\",[\"us_semi_cabover_doorglass_L\"]=\"us_semi_cabover_doorglass_L\",[\"us_semi_brake_DX2\"]=\"us_semi_brake_DX2\",[\"us_semi_finaldrive_R_2\"]=\"us_semi_finaldrive_R_2_462\",[\"us_semi_cabover_sleeper_step_L\"]=\"us_semi_cabover_sleeper_step_L\",[\"cabover_interior_airsusp\"]=\"\",[\"brakepad_RR\"]=\"brakepad_RR\",[\"us_semi_steer\"]=\"us_semi_cabover_steer\",[\"us_semi_spring_R_air_1\"]=\"us_semi_spring_R_air_1\",[\"us_semi_fueltank_steps_L\"]=\"\"},[\"mainPartName\"]=\"us_semi\",[\"coupledNodes\"]={}}";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "-1621.22656 1521.24756 163.813278";
+      rotationMatrix = "0.843436122 -0.537100375 -0.0117754331 0.537053168 0.843518257 -0.00713123847 0.0137629835 -0.000309289433 0.999905229";
+      annotation = "CAR";
+      internalName = "deplayer";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "5706202b-c405-402a-833a-e2e7a1e137f2";
+         licenseDesign = "vehicles/common/licenseplates/italy/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "XNT-2054";
+         paints = "{{[\"baseColor\"]={0.09,0.21,0.47,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=0,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.09,0.21,0.47,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=0,[\"clearcoatRoughness\"]=0.12},{[\"baseColor\"]={0.09,0.21,0.47,2},[\"roughness\"]=1,[\"clearcoat\"]=1,[\"metallic\"]=0,[\"clearcoatRoughness\"]=0.12}}";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+
+

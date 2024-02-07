@@ -1,0 +1,54 @@
+{
+  "garages":[
+  {
+	"id":"ezautoGarage",
+	"name":"Easydoor Autos Garage",
+	"description":"Easydoor Autos Garage",
+	"preview":"fuel_gasolin.jpg",
+	"zoneNames":["ezautogarage"],
+	"parkingSpotNames":["ezautogaragepark"]
+	"icon":"poi_garage_2_round",
+  },
+  ],
+  "gasStations":[
+    {
+      "name":"levels.utah.gasStationPoints.canyon",
+      "description":"levels.utah.gasStationPoints.canyon.description",
+      "preview":"fuel_canyon_auto.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_gasolin_pump_area_1", "fuel_gasolin_pump_icon_1"],
+        ["fuel_gasolin_pump_area_2", "fuel_gasolin_pump_icon_2"],
+      ]
+    },
+    {
+      "name":"levels.utah.gasStationPoints.gasolin",
+      "description":"levels.utah.gasStationPoints.gasolin.description",
+      "preview":"fuel_gasolin.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_canyon_auto_pump_area_1", "fuel_canyon_auto_pump_icon_1"],
+        ["fuel_canyon_auto_pump_area_2", "fuel_canyon_auto_pump_icon_2"],
+      ]
+    },
+  ],
+  "computers":[
+	  {
+		  "id":"ezautoComputer",
+		  "name":"Easydoor Autos Computer",
+		  "description":"Use this computer to browse and locate vehicles for sale! ",
+		  "preview":"fuel_gasolin.jpg",
+		  "doors":[["ezautoComputer_area_1","ezautoComputer_icon_1"]],
+		  "screens":["servicestationOfficeComputer_screen_1"],
+		  "functions": {"painting":true, "tuning":true, "vehicleInventory":true, "vehicleShop":true, "partShop":true, "partInventory":true, "insurancePolicies":true},
+		  "activityAcceptProps":[
+			{"keyLabel":"Vehicle & Parts Management"},
+			{"keyLabel":"Vehicle & Parts Shopping"},
+			{"keyLabel":"Insurance Management"},
+		  ],
+		  "iconOffsetHeight":0.27,
+		  "iconLift":0.24,
+		  "icon":"poi_laptop_round"
+		}
+	],
+}

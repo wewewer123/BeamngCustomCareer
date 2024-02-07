@@ -1,0 +1,522 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new DecalRoad() {
+      drivability = "-1";
+      lanesLeft = "1";
+      lanesRight = "1";
+      oneWay = "0";
+      flipDirection = "0";
+      gatedRoad = "0";
+      useSubdivisions = "1";
+      ImprovedSpline = "0";
+      startTangent = "0";
+      endTangent = "0";
+      looped = "0";
+      smoothness = "0.5";
+      Detail = "0.100000001";
+      overObjects = "0";
+      Material = "checkered_line";
+      textureLength = "5";
+      breakAngle = "3";
+      renderPriority = "10";
+      zBias = "0";
+      decalBias = "0.000500000024";
+      distanceFade = "0 0";
+      startEndFade = "0 0";
+      hiddenInNavi = "0";
+      position = "276.576538 -888.982056 247.562241";
+      scale = "1 1 1";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "afe3c2d6-81d6-482b-a4c3-6edd1ad3b7d3";
+         mode = "Ignore";
+
+      Node = "276.576538 -888.982056 247.562241 0.500000";
+      Node = "272.013855 -881.981018 247.308472 0.500000";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "244.115448 -931.546326 251.711258";
+      scale = "1 1 1";
+      rotationMatrix = "0.999369025 -0.0327978469 -0.0135769667 0.0322262384 0.998664677 -0.0403685942 0.0148828495 0.039905604 0.999092102";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "1bd08c2c-4899-46ff-86ff-eca2ab6364a3";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_b.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "378.926178 -746.415649 228.741028";
+      scale = "1 1 1";
+      rotationMatrix = "0.690992117 -0.720860064 0.0537620448 0.721818864 0.692078471 0.00224591698 -0.0388265774 0.0372545496 0.998550951";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "632f0b15-faad-4582-99cc-8783ac4e4bae";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "380.949615 -749.776611 229.090149";
+      scale = "1 1 1";
+      rotationMatrix = "0.307970226 -0.949670494 0.0572738498 0.950238347 0.310006499 0.0307085551 -0.0469182692 0.0449664779 0.997886181";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "077e4bfe-500d-4cb3-83c5-3f1a372073d3";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_b.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "381.114868 -753.416626 229.351074";
+      scale = "1 1 1";
+      rotationMatrix = "0.209612072 0.975785315 -0.0624921769 -0.97729665 0.211097792 0.0181282237 0.0308812484 0.0572734773 0.997880936";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "b3ed59cc-68d8-4ae6-8c12-e10c9139db29";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "224.541931 -834.600525 243.825714";
+      scale = "1 1 1";
+      rotationMatrix = "0.0336756483 -0.998942673 0.0312672481 0.993916154 0.0301910881 -0.105918601 0.104862705 0.0346440561 0.993881404";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "0ac0ded4-0253-46fb-82df-cc171326eb08";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "185.634598 -904.644836 276.564789";
+      scale = "1 1 1";
+      rotationMatrix = "0.268213958 -0.962644935 0.0371049196 0.963306427 0.268405288 0.000183009659 -0.0101353237 0.0356943086 0.999311686";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "558641c5-7691-4725-9f07-f06fe9290d61";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "185.167023 -901.130737 276.29068";
+      scale = "1 1 1";
+      rotationMatrix = "0.0154350558 -0.988954246 0.147415116 0.99988091 0.0153778642 -0.00152758067 -0.000756220834 0.147421047 0.989073813";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "f2bf2ded-91a5-41d5-8e71-6cb8b017e8bc";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "248.611664 -853.556396 240.699982";
+      scale = "1 1 1";
+      rotationMatrix = "-0.447840691 -0.887531102 0.108292222 0.891514778 -0.452479571 -0.0215481687 0.0681247115 0.0868938938 0.993885934";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "0a7ff0dc-d111-41c6-9147-e5272f494e57";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "260.805573 -837.283813 238.986023";
+      scale = "1 1 1";
+      rotationMatrix = "-0.678622901 -0.731951773 0.06097598 0.730659783 -0.681219935 -0.04556242 0.0748875812 0.0136329727 0.99709934";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "1b1331ac-2230-46ad-9c35-86cced4e957d";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "305.86554 -806.478882 235.998123";
+      scale = "1 1 1";
+      rotationMatrix = "-0.73514235 -0.677822053 0.0111218272 0.674256504 -0.732779205 -0.0917249471 0.0703230053 -0.0599318482 0.995722473";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "8a550e87-681d-4bd7-a19d-ee836287b278";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "335.140839 -785.079895 234.505478";
+      scale = "1 1 1";
+      rotationMatrix = "-0.910175622 -0.394100845 0.127534509 0.400364906 -0.915963352 0.0268160198 0.106248662 0.0754677057 0.991471171";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "5a047bee-5a08-4192-ae3c-35ffed1ff2ac";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "331.412048 -772.198181 232.881592";
+      scale = "1 1 1";
+      rotationMatrix = "-0.9101758 -0.409109056 0.0648876727 0.400365025 -0.909044445 -0.115526482 0.106248692 -0.0791705847 0.991182625";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "459a5d5f-4311-48f6-8c53-e5a12fc47b71";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "291.418762 -786.528442 236.454514";
+      scale = "1 1 1";
+      rotationMatrix = "-0.866770267 -0.49446857 0.0648876727 0.48565644 -0.866482437 -0.115526468 0.113348246 -0.0686217472 0.991182566";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "8ee0ccd1-ea8b-4b16-b13f-ee75ceba6e51";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "261.037262 -792.563232 238.433823";
+      scale = "1 1 1";
+      rotationMatrix = "-0.72430557 -0.686419129 0.0648876354 0.677791297 -0.726121426 -0.115526415 0.126415879 -0.0396960825 0.991182148";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "86c4e75d-c1dd-4c6d-9270-10cc76ae3e2c";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "244.867966 -812.846985 239.085236";
+      scale = "1 1 1";
+      rotationMatrix = "-0.959351361 -0.280476868 0.0312675163 0.275853574 -0.955345452 -0.10591875 0.0595789514 -0.0929879993 0.993881464";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "6099f709-9dba-45fa-9e0b-32c78c7c9278";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "374.876221 -847.84906 253.961121";
+      scale = "1 1 1";
+      rotationMatrix = "0.147041619 0.989004791 -0.0157473758 -0.986306727 0.145401299 -0.0778282881 -0.0746828765 0.026975736 0.996842384";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "3157fd9e-06dd-4cd0-ac5e-34c7106f3d77";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "374.407104 -850.988525 254.04129";
+      scale = "1 1 1";
+      rotationMatrix = "0.148233294 0.988437593 -0.0319078304 -0.986306846 0.145401359 -0.0778283104 -0.0722889751 0.0430076569 0.996456027";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "4550318d-8c35-4c84-923f-86b71f4bc57e";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "373.432098 -854.037476 254.163254";
+      scale = "1 1 1";
+      rotationMatrix = "0.529004216 0.848604679 -0.00496056303 -0.845212221 0.526348233 -0.0925946087 -0.0759652406 0.0531756729 0.995691538";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "fd00ed83-713a-4705-91e4-78a2c19d1d2a";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/misc/concrete_road_barrier_a.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "371.541351 -856.611816 254.1465";
+      scale = "1 1 1";
+      rotationMatrix = "0.621059299 0.783712149 -0.00897678174 -0.782193184 0.619049549 -0.0703672394 -0.0495905876 0.0507238023 0.99748075";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "46871662-2ab3-4488-aab1-ec22ed60aab3";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "189.68714904785 -901.86654663086 275.63593292236";
+
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/buildings/italy_construction_site_net.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-2.91668701 -3.7086792 0.803527832";
+      scale = "1 1 1";
+      rotationMatrix = "-0.2716254 0.962403059 0 -0.962403059 -0.2716254 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "21aaf7eb-33fc-41d9-9636-f60ac3c578b7";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/buildings/italy_construction_site_net.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-3.75758362 -0.729248047 0.803527832";
+      scale = "1 1 1";
+      rotationMatrix = "-0.2716254 0.962403059 0 -0.962403059 -0.2716254 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/buildings/italy_construction_site_net.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "2.67274475 3.30908203 -0.963195801";
+      scale = "1 1 1";
+      rotationMatrix = "-0.516416311 0.84729445 -0.124122232 -0.853897691 -0.520440936 0 -0.0645982921 0.105987683 0.992266953";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/buildings/italy_construction_site_net.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "4.00152588 1.12896729 -0.643829346";
+      scale = "1 1 1";
+      rotationMatrix = "-0.516416311 0.84729445 -0.124122232 -0.853897691 -0.520440936 0 -0.0645982921 0.105987683 0.992266953";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

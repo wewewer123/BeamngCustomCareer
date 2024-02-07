@@ -1,0 +1,266 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGVehicle() {
+      jbeam = "van";
+      color = "0.899999976 0.400000006 0 1.20000005";
+      colorPalette0 = "0.5 0.5 0.5 1.20000005";
+      colorPalette1 = "0.899999976 0.400000006 0 1.20000005";
+      metallicPaintData[0] = "0 1 1 0.0799999982";
+      metallicPaintData[1] = "0 1 1 0.0799999982";
+      metallicPaintData[2] = "0 1 1 0.0799999982";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/van/h45_rollback.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "317.854614 1833.75012 207.420258";
+      rotationMatrix = "0.808227837 -0.588109732 -0.0299106818 0.588731289 0.808096528 0.0193751641 0.012775993 -0.0332689025 0.999364793";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "deplayermat";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+         licenseDesign = "vehicles/common/licenseplates/italy/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "matress";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "321.376526 1837.64258 208.204025";
+      rotationMatrix = "0.801810741 -0.585279286 -0.120613679 0.575734675 0.702530921 0.418305874 -0.160090968 -0.404843628 0.900262475";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoJ";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king_alt.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "320.814575 1836.98438 208.48436";
+      rotationMatrix = "0.806522846 -0.585735142 -0.0802196935 0.539848745 0.674339771 0.503814518 -0.241006613 -0.449644387 0.860078871";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoI";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king_altb.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "321.123596 1837.28149 208.352158";
+      rotationMatrix = "0.809536278 -0.578959882 -0.0972441882 0.556797802 0.70468235 0.439771444 -0.186083809 -0.41015628 0.892829537";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoH";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "320.679138 1836.64685 208.963364";
+      rotationMatrix = "0.771620691 -0.629981518 -0.0878910571 -0.5201931 -0.545464993 -0.657166183 0.366061032 0.552803338 -0.748604178";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoG";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king_altb.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "320.344208 1836.18262 208.544647";
+      rotationMatrix = "0.812014639 -0.577361047 -0.0853614509 0.467992276 0.556724191 0.686324656 -0.34873423 -0.597254217 0.722268581";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoF";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king_alt.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "320.049683 1835.83777 208.567825";
+      rotationMatrix = "0.805893183 -0.587758541 -0.0712461919 0.439435601 0.513153553 0.737271726 -0.39677757 -0.62547034 0.671829104";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoE";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king_alt.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "319.760681 1835.54346 208.601791";
+      rotationMatrix = "0.805537939 -0.588463426 -0.0694221109 0.412029147 0.472079694 0.779341161 -0.425841033 -0.656392753 0.622742176";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoD";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "319.62851 1835.32812 209.178131";
+      rotationMatrix = "0.772717595 -0.627650857 -0.0946679562 -0.404451579 -0.371909976 -0.835525215 0.489210129 0.683913648 -0.541235805";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoC";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "321.66806 1838.0907 208.047638";
+      rotationMatrix = "0.793439627 -0.595196128 -0.12725991 0.60812974 0.783875048 0.125371814 0.0251350366 -0.176865518 0.983914018";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoB";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+   new BeamNGVehicle() {
+      jbeam = "mattress";
+      color = "White";
+      colorPalette0 = "White";
+      colorPalette1 = "White";
+      metallicPaintData[0] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[1] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[2] = "0.200000003 0.5 0.800000012 0";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/mattress/king.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "319.550507 1835.04333 209.335541";
+      rotationMatrix = "0.772717595 -0.627650857 -0.0946679562 -0.404451579 -0.371909976 -0.835525215 0.489210129 0.683913648 -0.541235805";
+      annotation = "CAR";
+      mode = "Ignore";
+      internalName = "cargoA";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+
+
+
+
+

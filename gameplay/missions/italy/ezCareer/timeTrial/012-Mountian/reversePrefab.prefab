@@ -1,0 +1,219 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/race/sign_arrows.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "380.794159 -753.187012 229.914169";
+      scale = "1.5 1.5 1.5";
+      rotationMatrix = "0.223995522 0.97279644 -0.0590649359 0.883329213 -0.228253931 -0.409424603 -0.411768943 0.0395362489 -0.910429537";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "7bba1512-95b0-4759-b904-e2d68b2f1de7";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/race/sign_arrows.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "378.801117 -746.852905 229.387497";
+      scale = "1.5 1.5 1.5";
+      rotationMatrix = "-0.721802473 0.690947413 -0.0398814492 -0.667423964 -0.679666936 0.304295003 0.183144212 0.246257588 0.951742828";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "29c09fed-1a29-46b1-a23d-38f44f1d1822";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/race/sign_arrows.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "380.579254 -749.907776 229.691254";
+      scale = "1.5 1.5 1.5";
+      rotationMatrix = "-0.309296012 0.948585749 -0.0672266632 -0.88383311 -0.260651886 0.388454169 0.350959659 0.179563418 0.919011116";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "c2400c4c-c693-40d8-a331-ac8586c8ebdb";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/race/sign_arrows.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "381.175903 -858.875977 255.526169";
+      scale = "1.5 1.5 1.5";
+      rotationMatrix = "0.774145484 0.632939875 0.00895139109 0.604570925 -0.735110462 -0.306764364 -0.187582627 0.242892936 -0.951743484";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "1fdbe018-e30c-4564-9cc7-f79e491b834e";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/race/sign_arrows.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "382.708282 -852.052124 255.203568";
+      scale = "1.5 1.5 1.5";
+      rotationMatrix = "-0.278624684 0.958158314 -0.0655669644 0.922939539 0.248249978 -0.294196755 -0.265610248 -0.142484456 -0.953492939";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "6eef8f8e-fc61-4e90-9394-028bda19eae2";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/italy/art/shapes/race/sign_arrows.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "382.871216 -855.782471 255.458923";
+      scale = "1.5 1.5 1.5";
+      rotationMatrix = "0.292746544 0.954726458 -0.0528641753 0.898131013 -0.293523014 -0.327419251 -0.328112334 0.0483717248 -0.943399549";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "f0fb5af7-86ce-4ba3-80f1-78b7ce5c5870";
+         mode = "Ignore";
+   };
+   new TSStatic(sign_finish1) {
+      shapeName = "/levels/italy/art/shapes/race/sign_finish.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "270.674622 -894.243408 247.658035";
+      scale = "1 1 1";
+      rotationMatrix = "-0.487551212 0.873094499 0 -0.873094499 -0.487551212 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "320ae9ab-2a0c-4bb7-9d3c-f1d199048ed9";
+         mode = "Ignore";
+   };
+   new TSStatic(sign_finish2) {
+      shapeName = "/levels/italy/art/shapes/race/sign_finish.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "266.161011 -884.889526 247.331512";
+      scale = "1 1 1";
+      rotationMatrix = "-0.471346349 0.88194859 0 -0.88194859 -0.471346349 0 0 0 1";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "5944b8a5-79b6-4caa-bb79-165e38c97d0d";
+         mode = "Ignore";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

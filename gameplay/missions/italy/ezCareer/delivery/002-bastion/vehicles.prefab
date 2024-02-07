@@ -1,0 +1,68 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGVehicle() {
+      internalName = "deplayer";
+      jbeam = "van";
+      color = "0.899999976 0.400000006 0 1.20000005";
+      colorPalette0 = "0.5 0.5 0.5 1.20000005";
+      colorPalette1 = "0.899999976 0.400000006 0 1.20000005";
+      metallicPaintData[0] = "0 1 1 0.0799999982";
+      metallicPaintData[1] = "0 1 1 0.0799999982";
+      metallicPaintData[2] = "0 1 1 0.0799999982";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/van/h45_rollback.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "1201.27539 -827.882812 146.222015";
+      rotationMatrix = "-0.80595696 0.591590285 0.0213326458 -0.591577172 -0.80621314 0.0075979908 0.0216935445 -0.00649625203 0.999743581";
+      annotation = "CAR";
+      mode = "Ignore";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+         licenseDesign = "vehicles/common/licenseplates/italy/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "fbx-service";
+   };
+   new BeamNGVehicle() {
+      internalName = "cargo";
+      jbeam = "bastion";
+      color = "0.425000012 0.0909999982 0.142000005 2";
+      colorPalette0 = "0.425000012 0.0909999982 0.142000005 2";
+      colorPalette1 = "0.330000013 0.330000013 0.330000013 2";
+      metallicPaintData[0] = "0.870000005 0.629999995 1 0.0299999993";
+      metallicPaintData[1] = "0.870000005 0.629999995 1 0.0299999993";
+      metallicPaintData[2] = "0 1 1 0.0299999993";
+      metallicPaintData[3] = "1 1 1 1";
+      partConfig = "vehicles/bastion/redtail_A.pc";
+      renderDistance = "500";
+      renderFade = "0.100000001";
+      dataBlock = "default_vehicle";
+      position = "1198.91907 -830.493347 147.007385";
+      rotationMatrix = "-0.796350598 0.604492426 0.0204126984 -0.604690313 -0.796447039 -0.00486182515 0.0133186802 -0.0162150674 0.99977982";
+      annotation = "CAR";
+      mode = "Ignore";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         autoEnterVehicle = "true";
+         licenseDesign = "vehicles/common/licenseplates/italy/licensePlate-default.json";
+         licenseFormats = "[\"30-15\"]";
+         licenseText = "ZC.864FT";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+
+

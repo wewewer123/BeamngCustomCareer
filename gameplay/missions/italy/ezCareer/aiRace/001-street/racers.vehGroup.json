@@ -1,0 +1,31 @@
+{
+  "data":[
+    {
+      "config":"150",
+      "model":"autobello",
+      "paintName":"random"
+    },
+    {
+      "config":"LX_V6_sport_M",
+      "model":"midsize",
+      "paintName":"random"
+    },
+    {
+      "config":"sport_se_i4_facelift_M",
+      "model":"legran",
+      "paintName":"random"
+    },
+    {
+      "config":"type-ls_M",
+      "model":"coupe",
+      "paintName":"random"
+    },
+    {
+      "config":"3000ix_M_alt",
+      "model":"etki",
+      "paintName":"random"
+    }
+  ],
+  "name":"Italy - Race 1",
+  "type":"custom"
+}

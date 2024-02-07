@@ -1,0 +1,60 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new TSStatic(gate_start) {
+      shapeName = "/levels/italy/art/shapes/race/race_rally_gate.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-453.599426 -761.792175 486.539642";
+      scale = "1 1 1";
+      rotationMatrix = "-0.361600667 0.931503356 -0.0393596962 -0.930450559 -0.357866585 0.0787188485 0.0592412651 0.0650869906 0.996119618";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "98be0e19-b911-4d98-86bd-7c75bdfdfb59";
+         mode = "Ignore";
+   };
+   new TSStatic(gate_finish) {
+      shapeName = "/levels/italy/art/shapes/race/race_rally_gate_finish.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-350.114807 -1714.86157 154.039261";
+      scale = "1 1 1";
+      rotationMatrix = "-0.944626153 -0.326420516 0.0336351991 0.328148872 -0.939650834 0.0968239903 -1.33788935e-09 0.102499813 0.994732916";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+      persistentId = "f0c9fefa-4ff3-43f8-a645-ea14a7cb9c4c";
+         mode = "Ignore";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+

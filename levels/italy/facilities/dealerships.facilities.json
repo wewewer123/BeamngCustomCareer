@@ -1,0 +1,155 @@
+{
+  "dealerships":[
+    {
+      "id":"ezusato",
+      "name":"Auto Usato",
+      "description":"Auto Usato - Used vehicle sales",
+      "preview":"fuel_apex_norte_harbor.jpg",
+      "doors":[["ezautoSale_area_1","ezautoSale_icon_1"]],
+      "parkingSpotNames":["ezautosalepark1"],
+      "activityAcceptProps":[
+        {"keyLabel":"Used Vehicles"},
+      ],
+      "filter": {
+        "whiteList":{"Years": {"min":1982, "max":2020}, "Mileage":{"min":18500000, "max":112000000}, "Value":{"min":1000}, "Config Type":["Factory"], "Population":{"min":1000},},
+        "blackList":{"Type":["Trailer"]}
+      },
+      "subFilters": [
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":1982, "max":1999}, "Mileage":{"min":100500000, "max":175500000},, "Config Type":["Factory"]},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2000, "max":2009}, "Mileage":{"min":80500000, "max":135500000},, "Config Type":["Factory"]},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2010, "max":2020}, "Mileage":{"min":30500000, "max":115500000},, "Config Type":["Factory"]},
+        },
+        {
+          "probability":1,
+          "whiteList":{}
+        }
+      ],
+      "fees": 649,
+      "containsStarterVehicles": false,
+      "testDrive": {
+        "abandonFees" : 250,
+        "timeLimit" : 120,
+        "licencePlate" : "jmotors"
+      },
+      "iconOffsetHeight":1.0,
+      "iconLift":0.25,
+      "playModeIconName":"poi_entrance_round",
+    },
+    {
+	  "id":"ezcladio",
+      "name":"Cladio Motors",
+      "description":"Cladio Motors - New & quality used vehicle sales.",
+      "preview":"fuel_apex_norte_harbor.jpg",
+      "doors":[["ezautoSale_area_2","ezautoSale_icon_2"]],
+      "parkingSpotNames":["ezautosalepark2"],
+      "activityAcceptProps":[
+        {"keyLabel":"New & Used Vehicles"},
+      ],
+
+      "filter":{
+        "whiteList":{"Years": {"min":1999}, "Mileage":{"min":55000000, "max":67500000}, "Value":{"min":1000, "max":70000}, "Config Type":["Factory"]},
+        "blackList":{"Type":["Trailer"]}
+      },
+
+      "subFilters": [
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2020}, "Mileage":{"min":9000, "max":70000}, "Config Type":["Factory"]},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2015, "max":2020}, "Mileage":{"min":15000000, "max":70000000}, "Config Type":["Factory"]},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2000, "max":2015}, "Mileage":{"min":90000000, "max":165000000}, "Config Type":["Factory"],"Value":{"min":38000}},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2015, "max":2022}, "Mileage":{"min":10000000, "max":90000000}, "Config Type":["Factory"]},
+        },
+        {
+          "probability":1,
+          "whiteList":{}
+        }
+      ],
+
+      "fees": 749,
+      "containsStarterVehicles": true,
+      "testDrive" : {
+        "abandonFees" : 100,
+        "timeLimit" : 120,
+        "licencePlate" : "AooELER"
+      },
+      "iconOffsetHeight":1.0,
+      "iconLift":0.25,
+      "playModeIconName":"poi_entrance_round",
+    },
+	{
+      "id":"ezctemeraria",
+      "name":"Temeraria Auto",
+      "description":"Temeraria Auto - Prestige auto sales, only the finest quality vehicles are sold here!",
+      "preview":"fuel_apex_norte_harbor.jpg",
+      "doors":[["ezautoSale_area_3","ezautoSale_icon_3"]],
+      "parkingSpotNames":["ezautosalepark3"],
+      "activityAcceptProps":[
+        {"keyLabel":"New Vehicles"},
+        {"keyLabel":"Prestige and High Quality"},
+      ],
+      "filter": {
+        "whiteList":{"Mileage":{"min":11000, "max":7200000}, "Value":{"min":100000}, "Config Type":["Factory"], "Type":["Car"], "Population":{"min":10, "max":2000}},
+        "blackList":{"Type":["Trailer"]}
+      },
+      "subFilters": [
+        {
+          "probability":2,
+          "whiteList":{"Years": {"min":1950, "max":1980},"Mileage":{"min":25000000, "max":65000000},"Value":{"min":50000}, "Population":{"max":500}},
+        },
+        {
+          "probability":2,
+          "whiteList":{"Years": {"min":1980, "max":2010},"Mileage":{"min":25000000, "max":50000000}},
+        },
+        {
+          "probability":3,
+          "whiteList":{"Years": {"min":2010},"Mileage":{"min":5200000, "max":18000000}},
+        },
+        {
+          "probability":4,
+          "whiteList":{"Years": {"min":2017},"Mileage":{"min":10000, "max":50000}},
+        },
+        {
+          "probability":1,
+          "whiteList":{}
+        }
+      ],
+      "fees": 1250,
+      "containsStarterVehicles": false,
+      "testDrive": {
+        "abandonFees" : 300,
+        "timeLimit" : 120,
+        "licencePlate" : "prestige"
+      },
+      "iconOffsetHeight":1.0,
+      "iconLift":0.25,
+      "playModeIconName":"poi_entrance_round",
+    }
+	],
+  "privateSellers":[
+    {
+      "id": "private",
+      "name": "Private",
+      "filter": {
+        "whiteList":{"Mileage":{"min":25000000, "max":380000000}, "Value":{"min":450}},
+        "blackList":{"Type":["Trailer", "Truck"]}
+      }
+    }
+  ]
+}

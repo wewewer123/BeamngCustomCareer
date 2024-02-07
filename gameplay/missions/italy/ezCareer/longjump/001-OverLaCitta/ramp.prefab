@@ -1,0 +1,63 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new TSStatic() {
+      shapeName = "/levels/utah/art/shapes/buildings/ut_ramp_mid_wood.DAE";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "500.068878 -861.686768 250.757416";
+      scale = "1.5 1 2";
+      rotationMatrix = "0.965425611 -0.258631945 -0.0326016322 -0.259612799 -0.965227187 -0.0306193382 -0.0235488415 0.0380244963 -0.998999178";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/utah/art/shapes/buildings/ut_ramp_mid_wood.DAE";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "1";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "500.534454 -862.157227 264.205414";
+      scale = "1.5 1 1";
+      rotationMatrix = "0.9659338 -0.254666179 -0.0460071377 0.255929053 0.966398954 0.0239404812 0.0383644216 -0.0348994955 0.998654068";
+      isRenderEnabled = "false";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+
+
+
+
+
+
+

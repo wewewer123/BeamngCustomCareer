@@ -1,0 +1,69 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new BeamNGWaypoint(wp_helper_1) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1365.94604 1320.21045 144.051712";
+      scale = "8 8 8";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new BeamNGWaypoint(wp_helper_2) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1426.92566 1396.3678 138.160782";
+      scale = "6 6 6";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new BeamNGWaypoint(wp_helper_3) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1033.25159 1363.61755 142.007446";
+      scale = "2 2 2";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new BeamNGWaypoint(wp_helper_4) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1039.32129 1362.35291 142.007446";
+      scale = "3 3 3";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new BeamNGWaypoint(wp_helper_5) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1177.45412 1304.98434 144.00656";
+      scale = "4.5 4.5 4.5";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new BeamNGWaypoint(wp_helper_6) {
+      drawDebug = "0";
+      directionalWaypoint = "0";
+      excludeFromMap = "0";
+      position = "1103.63232 1233.02478 147.006531";
+      scale = "6 6 6";
+      rotationMatrix = "1 0 0 0 1 0 0 0 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---
+

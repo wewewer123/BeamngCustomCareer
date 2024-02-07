@@ -1,0 +1,18 @@
+{
+  "data":[
+    {
+      "config":"polizia",
+      "model":"bolide"
+    },
+    {
+      "config":"vivace_polizia",
+      "model":"vivace"
+    },
+    {
+      "config":"tograc_polizia",
+      "model":"vivace"
+    }
+  ],
+  "name":"Italy Police Mix",
+  "type":"custom"
+}

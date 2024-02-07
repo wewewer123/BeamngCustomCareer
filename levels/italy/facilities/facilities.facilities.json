@@ -1,0 +1,178 @@
+{
+	"garages":[
+	{
+	"id":"ezautoGarage",
+	"name":"Easydoor Autos Garage",
+	"description":"Easydoor Autos Garage",
+	"preview":"fuel_apex_norte_harbor.jpg",
+	"zoneNames":["ezautogarage"],
+	"parkingSpotNames":["ezautogaragepark"]
+	"icon":"poi_garage_2_round",
+	},
+  ],
+  
+  "computers":[
+	  {
+		  "id":"ezautoComputer",
+		  "name":"Easydoor Autos Computer",
+		  "description":"Use this computer to browse and locate vehicles for sale! ",
+		  "preview":"fuel_apex_norte_harbor.jpg",
+		  "doors":[["ezautoComputer_area_1","ezautoComputer_icon_1"]],
+		  "screens":["servicestationOfficeComputer_screen_1"],
+		  "functions": {"painting":true, "tuning":true, "vehicleInventory":true, "vehicleShop":true, "partShop":true, "partInventory":true, "insurancePolicies":true},
+		  "activityAcceptProps":[
+			{"keyLabel":"Vehicle & Parts Management"},
+			{"keyLabel":"Vehicle & Parts Shopping"},
+			{"keyLabel":"Insurance Management"},
+		  ],
+		  "iconOffsetHeight":0.27,
+		  "iconLift":0.24,
+		  "icon":"poi_laptop_round"
+		}
+	],
+  
+  "gasStations":[
+    {
+      "id":"fuel_apex_fastello",
+      "name":"levels.italy.gasStationPoints.fuel_apex_fastello",
+      "description":"levels.italy.gasStationPoints.fuel_apex_fastello.description",
+      "preview":"fuel_apex_fastello.jpg",
+      "energyTypes":["gasoline","diesel","unknown","n2o"],
+      "pumps":[
+        ["fuel_apex_fastello_pump_area_1", "fuel_apex_fastello_pump_icon_1"],
+        ["fuel_apex_fastello_pump_area_2", "fuel_apex_fastello_pump_icon_2"],
+        ["fuel_apex_fastello_pump_area_3", "fuel_apex_fastello_pump_icon_3"],
+      ]
+    },
+    {
+      "id":"fuel_apex_norte",
+      "name":"levels.italy.gasStationPoints.fuel_apex_norte",
+      "description":"levels.italy.gasStationPoints.fuel_apex_norte.description",
+      "preview":"fuel_apex_norte.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_apex_norte_pump_area_1", "fuel_apex_norte_pump_icon_1"],
+        ["fuel_apex_norte_pump_area_2", "fuel_apex_norte_pump_icon_2"],
+      ]
+    },
+    {
+      "id":"fuel_apex_airport",
+      "name":"levels.italy.gasStationPoints.fuel_apex_airport",
+      "description":"levels.italy.gasStationPoints.fuel_apex_airport.description",
+      "preview":"fuel_apex_airport.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_apex_airport_pump_area_1", "fuel_apex_airport_pump_icon_1"],
+        ["fuel_apex_airport_pump_area_2", "fuel_apex_airport_pump_icon_2"],
+        ["fuel_apex_airport_pump_area_3", "fuel_apex_airport_pump_icon_3"],
+        ["fuel_apex_airport_pump_area_4", "fuel_apex_airport_pump_icon_4"],
+      ]
+    },
+    {
+      "id":"fuel_apex_castelletto",
+      "name":"levels.italy.gasStationPoints.fuel_apex_castelletto",
+      "description":"levels.italy.gasStationPoints.fuel_apex_castelletto.description",
+      "preview":"fuel_apex_castelletto.jpg",
+      "energyTypes":["gasoline","diesel","unknown","n2o"],
+      "pumps":[
+        ["fuel_apex_castelletto_pump_area_1", "fuel_apex_castelletto_pump_icon_1"],
+        ["fuel_apex_castelletto_pump_area_2", "fuel_apex_castelletto_pump_icon_2"],
+        ["fuel_apex_castelletto_pump_area_3", "fuel_apex_castelletto_pump_icon_3"],
+      ]
+    },
+    {
+      "id":"fuel_apex_crossroads",
+      "name":"levels.italy.gasStationPoints.fuel_apex_crossroads",
+      "description":"levels.italy.gasStationPoints.fuel_apex_crossroads.description",
+      "preview":"fuel_apex_crossroads.jpg",
+      "energyTypes":["gasoline","diesel","unknown","n2o"],
+      "pumps":[
+        ["fuel_apex_crossroads_pump_area_1", "fuel_apex_crossroads_pump_icon_1"],
+        ["fuel_apex_crossroads_pump_area_2", "fuel_apex_crossroads_pump_icon_2"],
+        ["fuel_apex_crossroads_pump_area_3", "fuel_apex_crossroads_pump_icon_3"],
+      ]
+    },
+    {
+      "id":"fuel_apex_lucera",
+      "name":"levels.italy.gasStationPoints.fuel_apex_lucera",
+      "description":"levels.italy.gasStationPoints.fuel_apex_lucera.description",
+      "preview":"fuel_apex_lucera.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_apex_lucera_pump_area_1", "fuel_apex_lucera_pump_icon_1"],
+        ["fuel_apex_lucera_pump_area_2", "fuel_apex_lucera_pump_icon_2"],
+      ]
+    },
+    {
+      "id":"fuel_apex_mountainside",
+      "name":"levels.italy.gasStationPoints.fuel_apex_mountainside",
+      "description":"levels.italy.gasStationPoints.fuel_apex_mountainside.description",
+      "preview":"fuel_apex_mountainside.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_apex_mountainside_pump_area_1", "fuel_apex_mountainside_pump_icon_1"],
+        ["fuel_apex_mountainside_pump_area_2", "fuel_apex_mountainside_pump_icon_2"],
+      ]
+    },
+    {
+      "id":"fuel_apex_mountainback",
+      "name":"levels.italy.gasStationPoints.fuel_apex_mountainback",
+      "description":"levels.italy.gasStationPoints.fuel_apex_mountainback.description",
+      "preview":"fuel_apex_mountainback.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_apex_mountainback_pump_area_1", "fuel_apex_mountainback_pump_icon_1"],
+        ["fuel_apex_mountainback_pump_area_2", "fuel_apex_mountainback_pump_icon_2"],
+      ]
+    },
+    {
+      "id":"fuel_apex_norte_harbor",
+      "name":"levels.italy.gasStationPoints.fuel_apex_norte_harbor",
+      "description":"levels.italy.gasStationPoints.fuel_apex_norte_harbor.description",
+      "preview":"fuel_apex_norte_harbor.jpg",
+      "energyTypes":["gasoline","diesel","unknown"],
+      "pumps":[
+        ["fuel_apex_norte_harbor_pump_area_1", "fuel_apex_norte_harbor_pump_icon_1"],
+        ["fuel_apex_norte_harbor_pump_area_2", "fuel_apex_norte_harbor_pump_icon_2"],
+      ]
+    },
+    {
+      "id":"fuel_sparks_norte",
+      "name":"levels.italy.gasStationPoints.fuel_sparks_norte",
+      "description":"levels.italy.gasStationPoints.fuel_sparks_norte.description",
+      "preview":"fuel_sparks_norte.jpg",
+      "energyTypes":["electricEnergy"],
+      "pumps":[
+        ["fuel_sparks_norte_pump_area_1", "fuel_sparks_norte_pump_icon_1"],
+        ["fuel_sparks_norte_pump_area_2", "fuel_sparks_norte_pump_icon_2"],
+        ["fuel_sparks_norte_pump_area_3", "fuel_sparks_norte_pump_icon_3"],
+        ["fuel_sparks_norte_pump_area_4", "fuel_sparks_norte_pump_icon_4"],
+      ]
+    },
+    {
+      "id":"fuel_sparks_norte_harbor",
+      "name":"levels.italy.gasStationPoints.fuel_sparks_norte_harbor",
+      "description":"levels.italy.gasStationPoints.fuel_sparks_norte_harbor.description",
+      "preview":"fuel_sparks_norte_harbor.jpg",
+      "energyTypes":["electricEnergy"],
+      "pumps":[
+        ["fuel_sparks_norte_harbor_pump_area_1", "fuel_sparks_norte_harbor_pump_icon_1"],
+        ["fuel_sparks_norte_harbor_pump_area_2", "fuel_sparks_norte_harbor_pump_icon_2"],
+      ]
+    },
+    {
+      "id":"fuel_sparks_norte_center",
+      "name":"levels.italy.gasStationPoints.fuel_sparks_norte_center",
+      "description":"levels.italy.gasStationPoints.fuel_sparks_norte_center.description",
+      "preview":"fuel_sparks_norte_center.jpg",
+      "energyTypes":["electricEnergy"],
+      "pumps":[
+        ["fuel_sparks_norte_center_pump_area_1", "fuel_sparks_norte_center_pump_icon_1"],
+        ["fuel_sparks_norte_center_pump_area_2", "fuel_sparks_norte_center_pump_icon_2"],
+        ["fuel_sparks_norte_center_pump_area_3", "fuel_sparks_norte_center_pump_icon_3"],
+        ["fuel_sparks_norte_center_pump_area_4", "fuel_sparks_norte_center_pump_icon_4"],
+      ]
+    },
+
+  ]
+}
